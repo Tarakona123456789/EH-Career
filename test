@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #006341;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #004c2a;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem;
+            background: #e3e3e3;
+        }
+        .hero h1 {
+            margin-bottom: 1rem;
+            color: #004c2a;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 1rem;
+        }
+        .job-listing {
+            margin: 2rem 0;
+            background: #fff;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .job-listing h3 {
+            color: #006341;
+        }
+        footer {
+            background: #006341;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Careers Page</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#jobs">Jobs</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Find Your Future with Us</h1>
+        <p>Explore exciting career opportunities and join our team!</p>
+    </div>
+    <div class="container">
+        <h2>Job Openings</h2>
+        <div class="job-listing">
+            <h3>Barista</h3>
+            <p>Location: Ho Chi Minh City</p>
+            <p>Description: Join our team as a Barista and deliver exceptional customer experiences.</p>
+            <button>Apply Now</button>
+        </div>
+        <div class="job-listing">
+            <h3>Store Manager</h3>
+            <p>Location: Hanoi</p>
+            <p>Description: Lead our team to success and manage daily operations at our store.</p>
+            <button>Apply Now</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Careers Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
